@@ -9,8 +9,10 @@ public class EmployeeReportDirector{
 	}
 
 	public void Builder(){
+
 		_builder.BuildHreader();
       _builder.BuildBody();
       _builder.BuildFooter();
+		
 	}
 }
