@@ -11,10 +11,10 @@ class Program
         };
 
         var builder = new EmployeeReportBuilder(employees);
-
-        var director = new EmployeeReportDirector(builder);
         
-        director.Builder();
+        builder.BuildFooter();
+        builder.BuildBody();
+        builder.BuildFooter();
 
         var report = builder.GetReport();
 
